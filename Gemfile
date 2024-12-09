@@ -5,6 +5,6 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jekyll-gist'
     gem 'jemoji'
-    gem "html-proofer"
+    gem "html-proofer", ">= 3.19.3"
 end
 
