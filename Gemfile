@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 group :jekyll_plugins do
-    gem 'github-pages'
-    gem 'jekyll-seo-tag'
+    gem 'github-pages', '>= 224'
+    gem 'jekyll-seo-tag', '>= 2.7.0'
     gem 'jekyll-gist'
-    gem 'jemoji'
-    gem "html-proofer"
+    gem 'jemoji', '>= 0.12.0'
+    gem "html-proofer", ">= 3.16.0"
 end
 
